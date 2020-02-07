@@ -13,13 +13,14 @@ struct SStudent {
     var studentName: String
     var totalMark: Double
     
+
     
     
     func display() {
         print("-----Structure-------")
-        print("StudentID: \(studentID)")
-        print("Student Name: \(studentName)")
-        print("Student total Marks \(totalMark)")
+        print("StudentID: \(self.studentID)")
+        print("Student Name: \(self.studentName)")
+        print("Student total Marks \(self.totalMark)")
         
     }
 }

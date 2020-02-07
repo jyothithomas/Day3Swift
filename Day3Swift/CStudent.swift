@@ -14,18 +14,24 @@ class CStudent {
     var totalMark: Double
     
     init() {
-        studentID = 0
-        studentName = ""
-        totalMark = 0.0
+        self.studentID = 0
+        self.studentName = ""
+        self.totalMark = 0.0
+    }
+    
+    init(studentID: Int, studentName: String, totalMark: Double) {
+        self.studentID = studentID
+        self.studentName = studentName
+        self.totalMark = totalMark
     }
     
     
     
     func display() {
         print("-----Class-------")
-        print("StudentID: \(studentID)")
-        print("Student Name: \(studentName)")
-        print("Student total Marks \(totalMark)")
+        print("StudentID: \(self.studentID)")
+        print("Student Name: \(self.studentName)")
+        print("Student total Marks \(self.totalMark)")
         
     }
 }

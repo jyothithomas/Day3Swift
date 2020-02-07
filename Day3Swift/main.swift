@@ -8,6 +8,11 @@
 
 import Foundation
 
-var a:Int
-var s: String
+var s1 = SStudent(studentID: 1, studentName: "Jyothi", totalMark: 49.0)
+s1.display()
+var c1 = CStudent(studentID: 7, studentName: "James", totalMark: 50)
+c1.display()
+var c2 = CStudent()
+c2.display()
+
 

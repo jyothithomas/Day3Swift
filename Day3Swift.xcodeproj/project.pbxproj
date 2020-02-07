@@ -10,6 +10,7 @@
 		9B6F310423EE1F8200B68ED7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F310323EE1F8200B68ED7 /* main.swift */; };
 		9B6F310B23EE252200B68ED7 /* SStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F310A23EE252200B68ED7 /* SStudent.swift */; };
 		9B6F310D23EE265A00B68ED7 /* CStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F310C23EE265A00B68ED7 /* CStudent.swift */; };
+		9B6F310F23EE2C4C00B68ED7 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F310E23EE2C4C00B68ED7 /* Students.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9B6F310323EE1F8200B68ED7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B6F310A23EE252200B68ED7 /* SStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SStudent.swift; sourceTree = "<group>"; };
 		9B6F310C23EE265A00B68ED7 /* CStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CStudent.swift; sourceTree = "<group>"; };
+		9B6F310E23EE2C4C00B68ED7 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9B6F310323EE1F8200B68ED7 /* main.swift */,
 				9B6F310A23EE252200B68ED7 /* SStudent.swift */,
 				9B6F310C23EE265A00B68ED7 /* CStudent.swift */,
+				9B6F310E23EE2C4C00B68ED7 /* Students.swift */,
 			);
 			path = Day3Swift;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				9B6F310423EE1F8200B68ED7 /* main.swift in Sources */,
 				9B6F310B23EE252200B68ED7 /* SStudent.swift in Sources */,
 				9B6F310D23EE265A00B68ED7 /* CStudent.swift in Sources */,
+				9B6F310F23EE2C4C00B68ED7 /* Students.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
